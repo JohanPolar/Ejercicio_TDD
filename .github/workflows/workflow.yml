@@ -42,4 +42,4 @@ jobs:
           aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
           aws-region: us-east-1
       - name: copy to bucket
-        run: aws s3 cp funtion.py s3://buckecito3003
+        run: aws s3 cp funtion.py s3://bucketcito3003
