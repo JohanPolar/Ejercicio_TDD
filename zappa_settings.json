@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "addLambda.lambda_handler",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "ejercicio-tdd",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-8enq1hq1t",
+        "keep_warm": false,
+        "role_name": "LabRole",
+        "manage_roles": false,
+        "apigateway_enabled": false
+    }
+}
